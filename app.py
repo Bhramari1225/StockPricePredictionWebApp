@@ -8,7 +8,7 @@ import streamlit as st
 start = '2015-01-01'
 end = '2024-12-31'
 
-st.title('Stock Trend Prediction')
+st.title('Stock Trend Prediction Streamlit App')
 
 input_ticker = st.text_input('Enter Stock Ticker', 'AAPL')
 #start = st.text_input('Enter start date:')
